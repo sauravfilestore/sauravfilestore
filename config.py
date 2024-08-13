@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "27860124"))
 API_HASH = environ.get("API_HASH", "1e13cb41f6c5d03560a83bae3e8834dc")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7169446540:AAH2CSNHe9zRMxmhHshCSpHizJJKdKVcT1k")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://graph.org/file/82b01871c9c4e2c523454.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1442857853').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Animeworld4Uonly_Bot") # without @
 PORT = environ.get("PORT", "8080")
