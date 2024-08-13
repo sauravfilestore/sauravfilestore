@@ -20,11 +20,11 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "27860124"))
 API_HASH = environ.get("API_HASH", "1e13cb41f6c5d03560a83bae3e8834dc")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7499403756:AAGP55oOxEuaaOXQ0vyC2QEvd0MrnYtkHjA")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7169446540:AAH2CSNHe9zRMxmhHshCSpHizJJKdKVcT1k")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Animeworld4UonlyBot") # without @
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1442857853').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "Animeworld4Uonly_Bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002059667019"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002190372410"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
