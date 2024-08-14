@@ -11,10 +11,12 @@ class script(object):
 # Ask Doubt on telegram @KingVJ01
 
     
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """
+<b><a href="https://t.me/+UFJz4ZjWnaBkOWJl">{file_name}</a>
 
-sɪᴢᴇ ⚙️: {file_size}
-</b>""" 
+
+✯ 𝗨𝗽𝗱𝗮𝘁𝗲 𝗰𝗵𝗮𝗻𝗻𝗲𝗹  : <a href='https://t.me/+UFJz4ZjWnaBkOWJl'>🍿 𝗨𝗽𝗱𝗮𝘁𝗲 𝗺𝗼𝘃𝗶𝗲 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 🍿</a> 
+•─────────★•🥰•★────────•</b>""" 
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -95,7 +97,9 @@ First Send /clone command then follow below steps.
 🔻 /deletecloned - ᴜsᴇ ᴛʜɪs ғᴏʀ ᴅᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴄʟᴏɴᴇ ʙᴏᴛ 
 ᴇx - /deletecloned ʏᴏᴜʀʙᴏᴛᴛᴏᴋᴇɴ
 
-🔻 /broadcast - ʀᴇᴘʟʏ ᴛᴏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ (ʙᴏᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</b>"""
+🔻 /broadcast - ʀᴇᴘʟʏ ᴛᴏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ (ʙᴏᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)
+
+    ◈ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/sheffyssamra'>sʜᴇғғʏ sᴀᴍʀᴀ</a></b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
