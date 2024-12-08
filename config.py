@@ -56,11 +56,11 @@ BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 # Verify Info :-
-VERIFY_MODE = bool(environ.get('VERIFY_MODE', False)) # Set True or False
+VERIFY_MODE = bool(environ.get('VERIFY_MODE', True)) # Set True or False
 
 # If Verify Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "publicearn.in") # shortlink domain without https://
-SHORTLINK_API = environ.get("SHORTLINK_API", "5a7506c5a156450c8af39b1a8402d56647530de8") # shortlink api
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "freearn.site") # shortlink domain without https://
+SHORTLINK_API = environ.get("SHORTLINK_API", "9b67e66809fcb52d7414f5b5bb890365ee954b16") # shortlink api
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/+v4C3eaVZJUVhZDY1") # how to open link 
 
 # Website Info:
